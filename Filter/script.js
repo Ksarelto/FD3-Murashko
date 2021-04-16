@@ -46,11 +46,11 @@ const FilterBlock = React.createClass({
 		const newWordsArr = (this.state.checkBoxChecked) ? sortedArr.sort() : this.state.wordsArr;
 
 		const paragraphText = newWordsArr.map( (el,ind) => {
-			if(el.includes(this.state.currentWord) && this.state.currentWord !== ""){
-				return;
-			}
-			let block = React.DOM.span({key:ind, className: "filter-paragraph__word"}, el)
+			if(el.includes(this.state.currentWord)){
+				let block = React.DOM.span({key:ind, className: "filter-paragraph__word"}, el)
 				return block;
+			}
+			return;
 		})
 
 
