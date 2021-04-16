@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8" />
+  <title>Filter</title>
+  <link rel="stylesheet"  href="styles.css" />
+</head> 
+<body> 
+  <div class="main"></div> 
+      
+  <script src="https://unpkg.com/react@15/dist/react.js"></script> 
+  <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> 
+      
+  <script src="script.js"></script>
+
+  <script>
+    const wordsList=["птица", "лягушка", "сова", "кузнечик", "воландеморт"];
+
+    ReactDOM.render(
+      React.createElement(FilterBlock,{namesArr:wordsList}), 
+      document.querySelector('.main')
+    );
+
+  </script>
+
+</body> 
+</html>

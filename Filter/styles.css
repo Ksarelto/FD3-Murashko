@@ -1,0 +1,24 @@
+.main{
+	max-width: 500px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.filter-container{
+	margin: 0 auto;
+}
+.filter-form{
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+}
+.filter-paragraph{
+	width: 100%;
+	height: 100px;
+	overflow-y: scroll;
+}
+.filter-paragraph__word{
+	display: block;
+	margin-bottom: 5px;
+}
