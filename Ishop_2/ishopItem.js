@@ -1,4 +1,4 @@
-const IshopItemsContainer = React.createClass({
+const IshopItem = React.createClass({
 
 	displayName: 'Items',
 
