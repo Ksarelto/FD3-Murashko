@@ -43,11 +43,11 @@ const MainStore = React.createClass({
 					return;
 				}
 				if(el.code === this.state.checkedRow){
-					return React.createElement(IshopItemsContainer, {key:el.code,
+					return React.createElement(IshopItem, {key:el.code,
 							itemName: el.itemName,code:el.code, price: el.price, rest: el.rest,
 							url: el.url, backgroundStyle: "red", msRowSelected: this.rowSelected, deleteAllRow: this.deleteAllRow});
 				}
-				return React.createElement(IshopItemsContainer, {key:el.code,
+				return React.createElement(IshopItem, {key:el.code,
 					itemName: el.itemName, price: el.price,code:el.code, rest: el.rest,
 					url: el.url, backgroundStyle: "", msRowSelected: this.rowSelected, deleteAllRow: this.deleteAllRow});
 		})
