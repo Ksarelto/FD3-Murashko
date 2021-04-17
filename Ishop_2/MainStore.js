@@ -17,35 +17,27 @@ const MainStore = React.createClass({
 	rowSelected: function(code) {
 	    console.log('выбран ответ с кодом '+code);
 	    this.setState( {checkedRow:code} );
-	    console.log(this.state.newItemsList[0].code);
 	 },
 
 	 deleteAllRow: function(bul,code){
-	 	if(bul){
-	 		let result = [];
-	 		this.state.newItemsList.forEach( (el) => {
-	 			if(el.code !== code){
-	 				result.push(el); 
-	 			}
-	 		} );
-
-	 		this.state.newItemsList = result;
-	 	}
-		
+	 	if (bul) {
+			const result = this.state.newItemsList.filter((el) => {
+				return (el.code !== code);
+			});
+			this.setState( {newItemsList: result} );
+		}
 	 },
-
-
 
 	render: function(){
 
 		const result = this.state.newItemsList.map( (el,ind) => {
 				if(el.code in this.state.deletedRows){
-					return;
+				   return;
 				}
 				if(el.code === this.state.checkedRow){
-					return React.createElement(IshopItem, {key:el.code,
-							itemName: el.itemName,code:el.code, price: el.price, rest: el.rest,
-							url: el.url, backgroundStyle: "red", msRowSelected: this.rowSelected, deleteAllRow: this.deleteAllRow});
+				   return React.createElement(IshopItem, {key:el.code,
+					  itemName: el.itemName,code:el.code, price: el.price, rest: el.rest,
+					  url: el.url, backgroundStyle: "red", msRowSelected: this.rowSelected, deleteAllRow: this.deleteAllRow});
 				}
 				return React.createElement(IshopItem, {key:el.code,
 					itemName: el.itemName, price: el.price,code:el.code, rest: el.rest,
@@ -65,6 +57,5 @@ const MainStore = React.createClass({
 					React.DOM.div({className: "ishop__table"}, result)
 				)
 			)
-
 	},
 })
