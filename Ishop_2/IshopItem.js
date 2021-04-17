@@ -3,12 +3,10 @@ const IshopItem = React.createClass({
 	displayName: 'Items',
 
 	rowClicked: function(e){
-		e = e || window.event;
 		this.props.msRowSelected(this.props.code);
 	},
 
 	deleteRow: function(e){
-		e = e || window.event;
 		let answer = confirm('Удалить строку?');
 		(answer) ? this.props.deleteAllRow(true,this.props.code) : this.props.deleteAllRow(false);
 	},
