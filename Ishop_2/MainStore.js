@@ -17,20 +17,17 @@ const MainStore = React.createClass({
 	rowSelected: function(code) {
 	    console.log('выбран ответ с кодом '+code);
 	    this.setState( {checkedRow:code} );
-	    console.log(this.state.newItemsList[0].code);
 	 },
 
 	 deleteAllRow: function(bul,code){
-	 	if(bul){
-	 		let result = [];
-	 		this.state.newItemsList.forEach( (el) => {
-	 			if(el.code !== code){
-	 				result.push(el); 
-	 			}
-	 		} );
+	 	if (bul) {
+			const result = this.state.newItemsList.filter((el) => {
+				return (el.code !== code)
 
-	 		this.state.newItemsList = result;
-	 	}
+			});
+
+			this.setState( {newItemsList: result} );
+		}
 		
 	 },
 
