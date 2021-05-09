@@ -1,0 +1,37 @@
+[
+    {
+        "itemName": "Bugatti",
+        "price": "30$",
+        "url": "www.bugatti.jpg",
+        "rest": 3,
+        "code": 1
+    },
+    {
+        "itemName": "Gasel",
+        "price": "320$",
+        "url": "www.gasel.jpg",
+        "rest": 5,
+        "code": 2
+    },
+    {
+        "itemName": "Mercedes",
+        "price": "10$",
+        "url": "www.mercedes.jpg",
+        "rest": 22,
+        "code": 3
+    },
+    {
+        "itemName": "Nissan",
+        "price": "3000$",
+        "url": "www.nissan.jpg",
+        "rest": 1,
+        "code": 4
+    },
+    {
+        "itemName": "Retro",
+        "price": "45670$",
+        "url": "www.retro.jpg",
+        "rest": 23,
+        "code": 5
+    }
+]
