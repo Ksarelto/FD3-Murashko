@@ -1,7 +1,7 @@
 {
-  "name": "votesblock",
+  "name": "multilinetext",
   "version": "1.0.0",
-  "description": "блок голосования",
+  "description": "многострочный текст",
   "main": "App.js",
   "scripts": {
     "build": ".\\node_modules\\.bin\\webpack",
