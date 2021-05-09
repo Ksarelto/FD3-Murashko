@@ -1,0 +1,22 @@
+.message {
+  max-width: 400px;
+}
+.message__label {
+  display: inline-block;
+  width: 65px;
+}
+.message__input {
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+.message__label:first-child {
+  margin-bottom: 10px;
+}
+.message__label_card {
+  display: block;
+  width: auto;
+}
+.invalid {
+  text-transform: uppercase;
+  color: red;
+}

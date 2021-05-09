@@ -1,0 +1,31 @@
+.ishop {
+	width: 650px;
+	margin: 0 auto;
+}
+.ishop__header {
+	text-align: center;
+}
+.ishop__container {
+	width: 100%;
+	margin: 0 auto;
+}
+.ishop__item {
+	display: flex;
+	border: 1px solid #000;
+}
+.table-header__items,
+.ishop-content__items {
+	flex: 0 0 20%;
+	text-align: center;
+	box-sizing: border-box;
+	border-right: 1px solid #000;
+}
+.red {
+	background-color: red;
+}
+.ishop-content_form {
+	display: flex;
+}
+.ishop-content__items_button {
+	flex: 0 1 50%;
+}
