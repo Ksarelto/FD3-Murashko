@@ -93,13 +93,13 @@ class MainStore extends React.Component {
 				return (
 					<ShopItem key={el.code}
 						itemName={el.itemName} code={el.code} price={el.price} rest={el.rest}
-						url={el.url} backgroundStyle="red" msRowSelected={this.rowSelected} deleteAllRow={this.deleteAllRow} showItemCard={this.showCard} invalidButton={this.state.invalid} />
+						url={el.url} checkedStyle="red" msRowSelected={this.rowSelected} deleteAllRow={this.deleteAllRow} showItemCard={this.showCard} invalidButton={this.state.invalid} />
 				);
 			}
 			return (
 				<ShopItem key={el.code}
 					itemName={el.itemName} code={el.code} price={el.price} rest={el.rest}
-					url={el.url} backgroundStyle="" msRowSelected={this.rowSelected} deleteAllRow={this.deleteAllRow} showItemCard={this.showCard} invalidButton={this.state.invalid} />
+					url={el.url} checkedStyle="" msRowSelected={this.rowSelected} deleteAllRow={this.deleteAllRow} showItemCard={this.showCard} invalidButton={this.state.invalid} />
 			);
 		})
 
