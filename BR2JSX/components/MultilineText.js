@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
-import './MultilineComponent.css'
+import './MultilineText.css'
 
 class MultilineText extends React.Component {
 
