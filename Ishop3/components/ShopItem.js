@@ -11,7 +11,7 @@ class ShopItem extends React.Component {
 		code: PropTypes.number,
 		price: PropTypes.string,
 		url: PropTypes.string,
-		backgroundStyle: PropTypes.string,
+		checkedStyle: PropTypes.string,
 		msRowSelected: PropTypes.func,
 		deleteAllRow: PropTypes.func
 	}
@@ -43,7 +43,7 @@ class ShopItem extends React.Component {
 	render() {
 
 		return (
-			<div className={`ishop__item ishop-content  ${this.props.backgroundStyle}`} onClick={this.rowClicked}>
+			<div className={`ishop__item ishop-content  ${this.props.checkedStyle}`} onClick={this.rowClicked}>
 				<span className="ishop-content__items ishop-content__items_name">{this.props.itemName}</span>
 				<span className="ishop-content__items ishop-content__items_price">{this.props.price}</span>
 				<span className="ishop-content__items ishop-content__items_url">{this.props.url}</span>

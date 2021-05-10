@@ -9,7 +9,13 @@ import './changeMessage.css';
 class ChangeMessage extends React.Component {
 
   static propTypes = {
-    itemName: PropTypes.string,
+    itemHash: PropTypes.object.isRequired,
+    mode: PropTypes.number.isRequired,
+    itemHashLength: PropTypes.number.isRequired,
+    saveButtonValid: PropTypes.bool.isRequired,
+    productData: PropTypes.object.isRequired,
+    checkFormValidation: PropTypes.func.isRequired,
+    addNewRowMessage: PropTypes.func.isRequired,
   }
 
   state = {
