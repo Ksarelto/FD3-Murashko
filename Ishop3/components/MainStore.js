@@ -38,7 +38,7 @@ class MainStore extends React.Component {
 			Object.assign(emptyItem, this.state.newItemsList[0]);
 			for (let el in emptyItem) {
 				if (el === 'code') {
-					emptyItem[el] = this.state.newItemsList.length + 1;
+					emptyItem[el] = this.state.newItemsList[this.state.newItemsList.length - 1].code + 1;
 					continue;
 				}
 				emptyItem[el] = "";
@@ -124,7 +124,7 @@ class MainStore extends React.Component {
 				<div className="ChangedMessage">
 					{
 						(this.state.mode > 0) &&
-						<ChangedMessage key={this.state.checkedRow} itemHash={this.state.itemHash} productData={this.state.checkedProductData} mode={this.state.mode} itemHashLength={this.state.newItemsList.length} checkFormValidation={this.checkFormValidation} addNewRowMessage={this.addNewRow} saveButtonValid={this.state.mode === 2 ? false : true} />
+						<ChangedMessage key={this.state.checkedRow} itemHash={this.state.itemHash} productData={this.state.checkedProductData} mode={this.state.mode} checkFormValidation={this.checkFormValidation} addNewRowMessage={this.addNewRow} saveButtonValid={this.state.mode === 2 ? false : true} />
 					}
 				</div>
 			</div>

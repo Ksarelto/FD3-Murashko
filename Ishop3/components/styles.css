@@ -15,10 +15,11 @@
 }
 .table-header__items,
 .ishop-content__items {
-	flex: 0 0 20%;
+	flex: 0 0 130px;
 	text-align: center;
 	box-sizing: border-box;
 	border-right: 1px solid #000;
+	overflow: auto;
 }
 .red {
 	background-color: red;

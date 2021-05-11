@@ -11,7 +11,6 @@ class ChangeMessage extends React.Component {
   static propTypes = {
     itemHash: PropTypes.object.isRequired,
     mode: PropTypes.number.isRequired,
-    itemHashLength: PropTypes.number.isRequired,
     saveButtonValid: PropTypes.bool.isRequired,
     productData: PropTypes.object.isRequired,
     checkFormValidation: PropTypes.func.isRequired,
@@ -34,16 +33,23 @@ class ChangeMessage extends React.Component {
   validateInput = (e) => {
     const formElements = e.target.form.elements;
     let valid = true;
+    const obj = {};
     for (let el of formElements) {
       if (el.value === "") {
         valid = false;
+        obj[`${el.name}Valid`] = false;
+        continue;
       }
+      obj[`${el.name}Valid`] = true;
     }
-    if (e.target.value === "") {
-      this.setState({ [e.target.name]: e.target.value, [`${e.target.name}Valid`]: false, saveValid: valid })
-    } else {
-      this.setState({ [e.target.name]: e.target.value, [`${e.target.name}Valid`]: true, saveValid: valid })
-    }
+    this.setState({
+      [e.target.name]: e.target.value,
+      itemNameValid: obj.itemNameValid,
+      priceValid: obj.priceValid,
+      urlValid: obj.urlValid,
+      restValid: obj.restValid,
+      saveValid: valid
+    })
   }
 
   checkFormValidation = (e) => {
@@ -66,19 +72,31 @@ class ChangeMessage extends React.Component {
   }
 
   resetData = (e) => {
-    this.setState({
-      itemName: this.props.productData.itemName,
-      price: this.props.productData.price,
-      url: this.props.productData.url,
-      rest: this.props.productData.rest,
-      itemNameValid: true,
-      priceValid: true,
-      urlValid: true,
-      restValid: true,
-      saveValid: this.props.saveButtonValid,
-    })
     if (this.props.mode !== 2) {
+      this.setState({
+        itemName: this.props.productData.itemName,
+        price: this.props.productData.price,
+        url: this.props.productData.url,
+        rest: this.props.productData.rest,
+        itemNameValid: true,
+        priceValid: true,
+        urlValid: true,
+        restValid: true,
+        saveValid: this.props.saveButtonValid,
+      })
       this.props.checkFormValidation(true);
+    } else {
+      this.setState({
+        itemName: this.props.productData.itemName,
+        price: this.props.productData.price,
+        url: this.props.productData.url,
+        rest: this.props.productData.rest,
+        itemNameValid: false,
+        priceValid: false,
+        urlValid: false,
+        restValid: false,
+        saveValid: this.props.saveButtonValid,
+      })
     }
   }
   saveProduct = (e) => {
@@ -87,7 +105,7 @@ class ChangeMessage extends React.Component {
       price: this.state.price,
       rest: this.state.rest,
       url: this.state.url,
-      code: this.state.code,
+      code: this.props.itemHash.code,
     }
 
     this.props.addNewRowMessage(product, this.props.mode);
