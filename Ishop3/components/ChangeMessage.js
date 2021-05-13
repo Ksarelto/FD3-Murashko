@@ -15,6 +15,7 @@ class ChangeMessage extends React.Component {
     productData: PropTypes.object.isRequired,
     checkFormValidation: PropTypes.func.isRequired,
     addNewRowMessage: PropTypes.func.isRequired,
+    showItemCard: PropTypes.func.isRequired,
   }
 
   state = {
@@ -72,33 +73,9 @@ class ChangeMessage extends React.Component {
   }
 
   resetData = (e) => {
-    if (this.props.mode !== 2) {
-      this.setState({
-        itemName: this.props.productData.itemName,
-        price: this.props.productData.price,
-        url: this.props.productData.url,
-        rest: this.props.productData.rest,
-        itemNameValid: true,
-        priceValid: true,
-        urlValid: true,
-        restValid: true,
-        saveValid: this.props.saveButtonValid,
-      })
-      this.props.checkFormValidation(true);
-    } else {
-      this.setState({
-        itemName: this.props.productData.itemName,
-        price: this.props.productData.price,
-        url: this.props.productData.url,
-        rest: this.props.productData.rest,
-        itemNameValid: false,
-        priceValid: false,
-        urlValid: false,
-        restValid: false,
-        saveValid: this.props.saveButtonValid,
-      })
-    }
+    this.props.checkFormValidation(true, {}, 0);
   }
+
   saveProduct = (e) => {
     const product = {
       itemName: this.state.itemName,

@@ -74,7 +74,11 @@ class MainStore extends React.Component {
 		this.setState({ newItemsList: mid, mode: 0, invalid: false })
 	}
 
-	checkFormValidation = (valid, elementsData) => {
+	checkFormValidation = (valid, elementsData, mode) => {
+		if (mode === 0) {
+			this.setState({ invalid: false, checkedRow: null, mode: mode })
+			return;
+		}
 		if (!valid) {
 			this.setState({ invalid: true, itemHash: elementsData });
 		} else {
