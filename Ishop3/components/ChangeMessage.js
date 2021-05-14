@@ -15,7 +15,6 @@ class ChangeMessage extends React.Component {
     productData: PropTypes.object.isRequired,
     checkFormValidation: PropTypes.func.isRequired,
     addNewRowMessage: PropTypes.func.isRequired,
-    showItemCard: PropTypes.func.isRequired,
   }
 
   state = {

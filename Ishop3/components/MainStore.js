@@ -51,7 +51,6 @@ class MainStore extends React.Component {
 	}
 
 	rowSelected = (code) => {
-		console.log('выбран ответ с кодом ' + code);
 		this.setState({ checkedRow: code });
 	}
 
@@ -67,7 +66,13 @@ class MainStore extends React.Component {
 	addNewRow = (obj, mode) => {
 		const mid = this.state.newItemsList.slice();
 		if (mode === 1) {
-			mid[obj.code - 1] = obj;
+			let index = 0;
+			mid.forEach((el,ind) => {
+				if(el.code === obj.code){
+					index = ind;
+				}
+			})
+			mid[index] = obj;
 		} else {
 			mid.push(obj);
 		}
