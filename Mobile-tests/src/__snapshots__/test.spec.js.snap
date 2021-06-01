@@ -1,0 +1,6849 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts component should cancel creating new clint'  1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={true}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={true}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={true}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={true}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={true}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    >
+      <ChangeMessage
+        itemHash={
+          Object {
+            "balance": "",
+            "code": 6,
+            "patrinymic": "",
+            "personName": "",
+            "surename": "",
+          }
+        }
+        key="null"
+        mode={2}
+        productData={
+          Object {
+            "balance": "",
+            "code": 6,
+            "patrinymic": "",
+            "personName": "",
+            "surename": "",
+          }
+        }
+        saveButtonValid={false}
+      >
+        <div
+          className="message"
+        >
+          <h2
+            className="message__subheader"
+          >
+            Добавить клиента
+          </h2>
+          <form
+            className="message__form"
+            onChange={[Function]}
+          >
+            <label
+              className="message__label"
+            >
+              ID:6
+            </label>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Фамилия
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue=""
+                name="surename"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Имя
+              </label>
+              <input
+                className="message__input  message__input_text"
+                defaultValue=""
+                name="personName"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Отчество
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue=""
+                name="patrinymic"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Баланс
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue=""
+                name="balance"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__button-wrapper"
+            >
+              <input
+                className="message__input message__input_save"
+                disabled={true}
+                onClick={[Function]}
+                type="button"
+                value="Добавить"
+              />
+              <input
+                className="message__input message__input_cancel"
+                onClick={[Function]}
+                type="button"
+                value="Отмена"
+              />
+            </div>
+          </form>
+        </div>
+      </ChangeMessage>
+    </div>
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should cancel creating new clint'  2`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should check clicked company  1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should check clicked company  2`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: MTS
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should click row  1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle="red"
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  red"
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    >
+      <ChangeMessage
+        itemHash={
+          Object {
+            "balance": -23,
+            "code": 1,
+            "patrinymic": "Петрович",
+            "personName": "Сергей",
+            "surename": "Иванов",
+          }
+        }
+        key="1"
+        mode={3}
+        productData={
+          Object {
+            "balance": -23,
+            "code": 1,
+            "patrinymic": "Петрович",
+            "personName": "Сергей",
+            "surename": "Иванов",
+          }
+        }
+        saveButtonValid={true}
+      >
+        <div
+          className="message"
+        >
+          <label
+            className="message__label_card"
+          >
+            Фамилия: Иванов
+          </label>
+          <label
+            className="message__label_card"
+          >
+            Имя: Сергей
+          </label>
+          <label
+            className="message__label_card"
+          >
+            Отчество: Петрович
+          </label>
+          <label
+            className="message__label_card"
+          >
+            Баланс: -23
+          </label>
+        </div>
+      </ChangeMessage>
+    </div>
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should create new clint 1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={true}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={true}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={true}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={true}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={true}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    >
+      <ChangeMessage
+        itemHash={
+          Object {
+            "balance": "test",
+            "code": 6,
+            "patrinymic": "test",
+            "personName": "test",
+            "surename": "test",
+          }
+        }
+        key="null"
+        mode={2}
+        productData={
+          Object {
+            "balance": "",
+            "code": 6,
+            "patrinymic": "",
+            "personName": "",
+            "surename": "",
+          }
+        }
+        saveButtonValid={false}
+      >
+        <div
+          className="message"
+        >
+          <h2
+            className="message__subheader"
+          >
+            Добавить клиента
+          </h2>
+          <form
+            className="message__form"
+            onChange={[Function]}
+          >
+            <label
+              className="message__label"
+            >
+              ID:6
+            </label>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Фамилия
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue=""
+                name="surename"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Имя
+              </label>
+              <input
+                className="message__input  message__input_text"
+                defaultValue=""
+                name="personName"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Отчество
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue=""
+                name="patrinymic"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Баланс
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue=""
+                name="balance"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__button-wrapper"
+            >
+              <input
+                className="message__input message__input_save"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+                value="Добавить"
+              />
+              <input
+                className="message__input message__input_cancel"
+                onClick={[Function]}
+                type="button"
+                value="Отмена"
+              />
+            </div>
+          </form>
+        </div>
+      </ChangeMessage>
+    </div>
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should create new clint 2`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance="test"
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={6}
+          invalidButton={false}
+          key="6"
+          patrinymic="test"
+          personName="test"
+          showItemCard={[Function]}
+          surename="test"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              test
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              test
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              test
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              test
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should delete client  1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should edit client'  1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle="red"
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  red"
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    >
+      <ChangeMessage
+        itemHash={
+          Object {
+            "balance": 0,
+            "code": 2,
+            "patrinymic": "ИВанович",
+            "personName": "Владимир",
+            "surename": "Раков",
+          }
+        }
+        key="2"
+        mode={1}
+        productData={
+          Object {
+            "balance": 0,
+            "code": 2,
+            "patrinymic": "ИВанович",
+            "personName": "Владимир",
+            "surename": "Раков",
+          }
+        }
+        saveButtonValid={true}
+      >
+        <div
+          className="message"
+        >
+          <h2
+            className="message__subheader"
+          >
+            Редактировать
+          </h2>
+          <form
+            className="message__form"
+            onChange={[Function]}
+          >
+            <label
+              className="message__label"
+            >
+              ID:2
+            </label>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Фамилия
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue="Раков"
+                name="surename"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Имя
+              </label>
+              <input
+                className="message__input  message__input_text"
+                defaultValue="Владимир"
+                name="personName"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Отчество
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue="ИВанович"
+                name="patrinymic"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Баланс
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue={0}
+                name="balance"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__button-wrapper"
+            >
+              <input
+                className="message__input message__input_save"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+                value="Сохранить"
+              />
+              <input
+                className="message__input message__input_cancel"
+                onClick={[Function]}
+                type="button"
+                value="Отмена"
+              />
+            </div>
+          </form>
+        </div>
+      </ChangeMessage>
+    </div>
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should edit client'  2`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={true}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle="red"
+          clientsActivity="active"
+          code={2}
+          invalidButton={true}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  red"
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={true}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={true}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={true}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={true}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    >
+      <ChangeMessage
+        itemHash={
+          Object {
+            "balance": "0",
+            "code": 2,
+            "patrinymic": "ИВанович",
+            "personName": "test",
+            "surename": "Раков",
+          }
+        }
+        key="2"
+        mode={1}
+        productData={
+          Object {
+            "balance": 0,
+            "code": 2,
+            "patrinymic": "ИВанович",
+            "personName": "Владимир",
+            "surename": "Раков",
+          }
+        }
+        saveButtonValid={true}
+      >
+        <div
+          className="message"
+        >
+          <h2
+            className="message__subheader"
+          >
+            Редактировать
+          </h2>
+          <form
+            className="message__form"
+            onChange={[Function]}
+          >
+            <label
+              className="message__label"
+            >
+              ID:2
+            </label>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Фамилия
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue="Раков"
+                name="surename"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Имя
+              </label>
+              <input
+                className="message__input  message__input_text"
+                defaultValue="Владимир"
+                name="personName"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Отчество
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue="ИВанович"
+                name="patrinymic"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__input-wrapper"
+            >
+              <label
+                className="message__label"
+              >
+                Баланс
+              </label>
+              <input
+                className="message__input message__input_text"
+                defaultValue={0}
+                name="balance"
+                type="text"
+              />
+            </div>
+            <div
+              className="message__button-wrapper"
+            >
+              <input
+                className="message__input message__input_save"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+                value="Сохранить"
+              />
+              <input
+                className="message__input message__input_cancel"
+                onClick={[Function]}
+                type="button"
+                value="Отмена"
+              />
+            </div>
+          </form>
+        </div>
+      </ChangeMessage>
+    </div>
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should edit client'  3`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance="0"
+          checkedStyle="red"
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="test"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  red"
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              test
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should render MainStore component 1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should sort clients  1`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should sort clients  2`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={0}
+          checkedStyle=""
+          clientsActivity="active"
+          code={2}
+          invalidButton={false}
+          key="2"
+          patrinymic="ИВанович"
+          personName="Владимир"
+          showItemCard={[Function]}
+          surename="Раков"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Владимир
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Раков
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              ИВанович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              0
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={22}
+          checkedStyle=""
+          clientsActivity="active"
+          code={3}
+          invalidButton={false}
+          key="3"
+          patrinymic="Александрович"
+          personName="Дмитрий"
+          showItemCard={[Function]}
+          surename="Носач"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Дмитрий
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Носач
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Александрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              22
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={34}
+          checkedStyle=""
+          clientsActivity="active"
+          code={4}
+          invalidButton={false}
+          key="4"
+          patrinymic="Сергеевич"
+          personName="Арtьем"
+          showItemCard={[Function]}
+          surename="Мурашко"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Арtьем
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Мурашко
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевич
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              34
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price active"
+            >
+              active
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
+
+exports[`Posts component should sort clients  3`] = `
+<MainStore
+  items={
+    Array [
+      Object {
+        "balance": -23,
+        "code": 1,
+        "patrinymic": "Петрович",
+        "personName": "Сергей",
+        "surename": "Иванов",
+      },
+      Object {
+        "balance": 0,
+        "code": 2,
+        "patrinymic": "ИВанович",
+        "personName": "Владимир",
+        "surename": "Раков",
+      },
+      Object {
+        "balance": 22,
+        "code": 3,
+        "patrinymic": "Александрович",
+        "personName": "Дмитрий",
+        "surename": "Носач",
+      },
+      Object {
+        "balance": 34,
+        "code": 4,
+        "patrinymic": "Сергеевич",
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+      },
+      Object {
+        "balance": -30,
+        "code": 5,
+        "patrinymic": "Сергеевна",
+        "personName": "Алеся",
+        "surename": "Климова",
+      },
+    ]
+  }
+  shopName="Mobile"
+>
+  <div
+    className="ishop"
+  >
+    <h1
+      className="ishop__header"
+    >
+      Mobile
+    </h1>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_velcome"
+        onClick={[Function]}
+        type="button"
+        value="Velcome"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_mts"
+        onClick={[Function]}
+        type="button"
+        value="MTS"
+      />
+      <span
+        className="ishop-form__text"
+      >
+        Компания: Velcome
+      </span>
+    </div>
+    <div
+      className="ishop-form"
+    >
+      <input
+        className="ishop-form__input ishop-form__input_all"
+        onClick={[Function]}
+        type="button"
+        value="Все"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_active"
+        onClick={[Function]}
+        type="button"
+        value="Активные"
+      />
+      <input
+        className="ishop-form__input ishop-form__input_blocked"
+        onClick={[Function]}
+        type="button"
+        value="Заблокированные"
+      />
+    </div>
+    <div
+      className="ishop__container"
+    >
+      <div
+        className="ishop__item table-header"
+      >
+        <span
+          className="table-header__items table-header__items_img"
+        >
+          "Фамилия"
+        </span>
+        <span
+          className="table-header__items table-header__items_name"
+        >
+          "Имя"
+        </span>
+        <span
+          className="table-header__items table-header__items_price"
+        >
+          "Отчество"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Баланс"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Статус"
+        </span>
+        <span
+          className="table-header__items table-header__items_rest"
+        >
+          "Редактировать"
+        </span>
+        <span
+          className="table-header__items table-header__items_button"
+        >
+          "Удалить"
+        </span>
+      </div>
+      <div
+        className="ishop__table"
+      >
+        <ShopItem
+          balance={-23}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={1}
+          invalidButton={false}
+          key="1"
+          patrinymic="Петрович"
+          personName="Сергей"
+          showItemCard={[Function]}
+          surename="Иванов"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Сергей
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Иванов
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Петрович
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -23
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+        <ShopItem
+          balance={-30}
+          checkedStyle=""
+          clientsActivity="blocked"
+          code={5}
+          invalidButton={false}
+          key="5"
+          patrinymic="Сергеевна"
+          personName="Алеся"
+          showItemCard={[Function]}
+          surename="Климова"
+        >
+          <div
+            className="ishop__item ishop-content  "
+            onClick={[Function]}
+          >
+            <span
+              className="ishop-content__items ishop-content__items_name"
+            >
+              Алеся
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price"
+            >
+              Климова
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_url"
+            >
+              Сергеевна
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_rest"
+            >
+              -30
+            </span>
+            <span
+              className="ishop-content__items ishop-content__items_price blocked"
+            >
+              blocked
+            </span>
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_edit"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Редакторовать"
+            />
+            <input
+              className="ishop-content__items ishop-content__items_button ishop-content_delete"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+              value="Удалить"
+            />
+          </div>
+        </ShopItem>
+      </div>
+    </div>
+    <input
+      className="ishop-content__items ishop-content__items_button new-btn"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      value="Добавить клиента"
+    />
+    <div
+      className="ChangedMessage"
+    />
+  </div>
+</MainStore>
+`;
