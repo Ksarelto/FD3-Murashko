@@ -12,15 +12,15 @@ class Tomato extends Product{
     }
 }
 
-const apple1 = new Apple(300,"pineapple");
-const apple2 = new Apple(200,"pineapple2");
-const apple3 = new Apple(100,"pineapple3");
+const apple1:Apple = new Apple(300,"pineapple");
+const apple2:Apple = new Apple(200,"pineapple2");
+const apple3:Apple = new Apple(100,"pineapple3");
 
-const tomato1 = new Tomato(300,"fingers");
-const tomato2 = new Tomato(200,"fingers2");
-const tomato3 = new Tomato(100,"fingers3");
+const tomato1:Tomato = new Tomato(300,"fingers");
+const tomato2:Tomato = new Tomato(200,"fingers2");
+const tomato3:Tomato = new Tomato(100,"fingers3");
 
-const scale = new Scales();
+const scale:Scales = new Scales();
 
 scale.addProduct(apple1)
 scale.addProduct(apple2)

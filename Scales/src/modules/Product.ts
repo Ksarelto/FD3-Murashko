@@ -1,14 +1,18 @@
 export class Product{
+
+    weight: number
+    name: string
+
   constructor(weight: number,name: string){
       this.weight = weight;
       this.name = name;
   }
 
-  getScale(){
+  getScale():number{
       return this.weight;
   }
 
-  getName(){
+  getName():string{
       return this.name;
   }
 }
