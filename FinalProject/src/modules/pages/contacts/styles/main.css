@@ -1,0 +1,78 @@
+
+/*_________________________________Contacts_________________________*/
+.contacts {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding-bottom: 148px; }
+	.contacts .contacts-image {
+	  margin-bottom: 150px; 
+	  height: 350px;
+	  text-align: center;}
+	  .contacts .contacts-image img {
+		width: 60%;
+	    height: 100%; }
+	.contacts .contacts-form {
+	  display: flex; }
+	  .contacts .contacts-form .contacts-form-text {
+		flex: 0 1 545px;
+		margin-right: 175px; }
+		.contacts .contacts-form .contacts-form-text h2 {
+		  margin-bottom: 50px;
+		  font-size: 35px }
+		  .contacts .contacts-form .contacts-form-text p{
+			  font-size: 20px;
+		  }
+	  .contacts .contacts-form form {
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: column; }
+		.contacts .contacts-form form label {
+		  width: 100%;
+		  position: relative;
+		  font-size: 1.8rem;
+		  font-weight: 400;
+		  line-height: 27px;
+		  padding-left: 11px;
+		  margin-bottom: 9px; }
+		  .contacts .contacts-form form label:before {
+			content: "*";
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: #fa0101; }
+		.contacts .contacts-form form input,
+		.contacts .contacts-form form textarea {
+		  width: 100%;
+		  font-size: 18px;
+		  font-weight: 400;
+		  line-height: 27px;
+		  border: 1px solid #000;
+		  border-radius: 5px;
+		  padding: 17px 0px 15px 19px;
+		  margin-bottom: 32px; }
+		  .contacts .contacts-form form input::-webkit-input-placeholder,
+		  .contacts .contacts-form form textarea::-webkit-input-placeholder {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 27px;
+			color: #969696; }
+		.contacts .contacts-form form textarea {
+		  min-height: 200px;
+		  margin-bottom: 65px;
+		  background-color: transparent; }
+		.contacts .contacts-form form button {
+		  max-width: 360px;
+		  font-size: 1.8rem;
+		  font-weight: 600;
+		  line-height: 27px;
+		  text-transform: uppercase;
+		  padding: 15px 0;
+		  border-radius: 10px;
+		  background-color: #fa0101;
+		  color: #fff;
+		transition: all .3s ease-in; }
+		  .contacts .contacts-form form button:hover {
+			background: #fa010187;
+			box-shadow: 0px 4px 30px #a000004d; }
+
+
