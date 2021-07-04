@@ -2,6 +2,7 @@
 /*_________________________________Contacts_________________________*/
 .contacts {
 	max-width: 1920px;
+	margin: 0 auto;
 	padding-bottom: 148px; }
 	.contacts .contacts-image {
 	  margin-bottom: 150px; 
