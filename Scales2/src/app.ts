@@ -1,30 +1,14 @@
-import {Scales} from './Scales'
+import {Product} from './modules/Product'
+import {Scales} from './modules/Scales'
 
-export interface IScalable{
-    getScale():number
-    getName():string
-  }
-
-class Apple implements IScalable{
-    constructor(private weight: number, private name: string){
-    }
-    getScale():number{
-        return this.weight;
-    }
-  
-    getName():string{
-        return this.name;
+class Apple extends Product{
+    constructor(weight: number,name: string){
+        super(weight,name);
     }
 }
-class Tomato implements IScalable{
-    constructor(private weight: number, private name: string){
-    }
-    getScale():number{
-        return this.weight;
-    }
-  
-    getName():string{
-        return this.name;
+class Tomato extends Product{
+    constructor(weight: number,name: string){
+        super(weight,name);
     }
 }
 
