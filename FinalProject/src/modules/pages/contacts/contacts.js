@@ -6,6 +6,7 @@ import { Footer } from "../../shared/footer/footer";
 import './styles/main.css';
 import './styles/media.css';
 
+
 export class Contacts extends React.PureComponent{
     render(){
         return(

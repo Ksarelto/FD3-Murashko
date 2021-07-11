@@ -10,6 +10,7 @@ import { WouldLikeItems } from './components/wouldlike/wouldlikeitems'
 import './styles/main.css';
 import './styles/media.css';
 
+
 export class Item extends React.PureComponent{
   static propTypes = {
     object: PropTypes.object
@@ -21,7 +22,7 @@ export class Item extends React.PureComponent{
 		return(
 			<div>
 				<Header></Header>
-			    <section class="description">
+			    <section class="description description-items">
 					<div class="container">
 							<p><NavLink exact to="/" activeClassName='dotsLink'>Главная</NavLink> - <NavLink to="/catalog/1" activeClassName='dotsLink'>Каталог</NavLink> - <NavLink className="active_link" to={`/item/${this.props.object.id}`} activeClassName='dotsLink'>{this.props.object.name}</NavLink></p>
 					</div>

@@ -7,7 +7,6 @@ export class ContactsMain extends React.PureComponent{
             <section class="contacts">
             <div class="container">
                 <div class="contacts-image">
-                <img src="../assets/img/fasion-contacts.png"/>
                 </div>
                 <div class="contacts-form">
                 <div class="contacts-form-text">

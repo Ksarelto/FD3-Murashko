@@ -10,6 +10,7 @@ import { CatalogItems } from './components/catalogitems';
 import './styles/main.css';
 import './styles/media.css';
 
+
 export class Catalog extends React.PureComponent{
   static propTypes = {
     items: PropTypes.array,
@@ -21,6 +22,7 @@ export class Catalog extends React.PureComponent{
   }
   componentDidMount = () => {
 		Events.addListener('FilterItems',this.filterItems);
+    Events.addListener('AddToBasket', this.updatePage);
     this.selectRef.value = localStorage.getItem('selectedSort') ? localStorage.getItem('selectedSort') : 'empty';
     this.sortItems();
     this.filterItems(JSON.parse(localStorage.getItem('filteredItems')), 2 );
@@ -29,8 +31,8 @@ export class Catalog extends React.PureComponent{
 
 	  componentWillUnmount = () => {
 		Events.removeListener('FilterItems',this.filterItems);
+    Events.removeListener('AddToBasket', this.updatePage);
     localStorage.setItem('selectedSort','empty');
-    alert("Посл перехода на другую страницу  фильтры будут очищены")
 	};
 
   selectRef = null;
@@ -69,6 +71,10 @@ export class Catalog extends React.PureComponent{
     }else{
       return;
     }
+    this.setState({sortedItems: arr});
+  }
+
+  updatePage = (arr) => {
     this.setState({sortedItems: arr});
   }
 

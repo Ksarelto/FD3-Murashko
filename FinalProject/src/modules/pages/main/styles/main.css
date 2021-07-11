@@ -20,6 +20,7 @@ header{
 }	
 .header .nav{
 	background-color: #fff;
+	padding: 20px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -42,7 +43,9 @@ header{
 }
 .nav .nav_logo{
 	flex: 0 1 33.3333%;
+	height: 55px;
 	text-align: center;
+	background: url(../../../IMG/Logo.jpg) center/ contain no-repeat;
 }
 .nav .nav_menu{
 	flex: 0 1 33.3333%;
@@ -66,7 +69,7 @@ header{
 }
 .nav_menu .nav_img .active__link{
 	display: inline-block;
-	height: 180%;
+	height: 192%;
 	border-bottom: 4px solid black;
 }
 .nav_menu .nav_img:hover:before{

@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/App.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, './dist/files'),
   },
   devtool: 'inline-source-map',
   module: {
@@ -45,6 +45,7 @@ module.exports = {
     extensions: ['.ts', '.js'],
   },
   devServer: {
+    historyApiFallback: true,
     open: true,
     port: 8080,
     contentBase: path.join(__dirname, 'dist'),

@@ -35,13 +35,43 @@ changeSum = (e) => {
   this.setState({sum: newSum, cost: newCost});
 }
 
+updateItem = (arr) => {
+  const id = this.props.id;
+  const items = [...arr];
+  const item = items.find((el) => el.id === id)
+  const newItem = {...item, basketIn: false};
+  isoFetch(`http://localhost:3000/items/${id}`, {
+      method: 'PATCH',
+      headers: {
+      'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(newItem),
+  });
+}
+
 removeItem = (e) => {
   e.target.closest('.table-items').classList.add('table-items_close');
   setTimeout(() => {
     Events.emit('DeleteRow', this.props.id);
+    Events.emit('SetSum',this.props.itemPrice * this.state.sum, 'minus');
     isoFetch(`http://localhost:3000/basket/${this.props.id}`, {
         method: 'DELETE',
     });
+    isoFetch(`http://localhost:3000/items`)
+    .then( response => {
+      if (!response.ok)
+          throw new Error("fetch error " + response.status);
+      else
+          return response.json();
+    })
+    .then( data => {
+        this.updateItem(data);
+    })
+    .catch( error => {
+        console.log(error.message);
+    })
+
+
   }, 700);
 }
     render(){

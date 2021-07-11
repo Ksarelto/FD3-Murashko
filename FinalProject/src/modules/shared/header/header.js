@@ -16,7 +16,6 @@ export class Header extends React.PureComponent{
                     <div className="nav">
                         <BurgerMenu></BurgerMenu>
                         <div className="nav_logo">
-                            <img src="../assets/img/Logo.jpg"/>
                         </div>
                         <div className="nav_menu">
                           <div className="nav_img">

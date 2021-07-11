@@ -24,6 +24,8 @@ export class Reviews extends React.PureComponent{
         <section class="reviews">
           <div class="container">
           <h2>Отзывы</h2>
+          <label className="reviews__label" for="rew">&#8249;</label>
+          <input type="checkbox" className="reviews__checkbox" id="rew"></input>
           <div class="box_reviews">
              {this.createReviewsContainer(data)}
           </div>

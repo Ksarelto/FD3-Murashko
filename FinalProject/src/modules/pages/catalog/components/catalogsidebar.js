@@ -79,12 +79,33 @@ export class CatalogSidebar extends React.PureComponent{
     localStorage.setItem( 'number', JSON.stringify(numbers) );
   }
 
+  box = null;
+  dropdown = null;
+
+  setRef = (ref) => {
+    if(ref === null) return;
+    switch(ref.dataset.name){
+      case 'box':
+        this.box = ref;
+        break;
+      case 'dropdown':
+        this.dropdown = ref;
+        break;
+    }
+  }
+
+
+    showSidebar = () => {
+        this.box.classList.toggle("light");
+        this.dropdown.classList.toggle("show")
+    }
+
   render(){
 
     return(
-      <div id="coverBox" class="bags_container_menu">
-					<div id="myDropdown" class="dropdown_container">
-						<button onclick="myFunction()" class="dropBtn">Фильтр</button>
+      <div id="coverBox" class="bags_container_menu" data-name='box' ref={this.setRef}>
+					<div id="myDropdown" class="dropdown_container" data-name='dropdown' ref={this.setRef}>
+						<button onClick={this.showSidebar} class="dropBtn">Фильтр</button>
             <h3>Фильтры</h3>
             <form name="filters" class="filters" onChange={this.addCheckItemsToStorage}>
               <label for="showprice"	class="filters__label">Цена </label>

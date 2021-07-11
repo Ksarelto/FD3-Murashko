@@ -2,14 +2,13 @@
 /*_________________________________Contacts_________________________*/
 .contacts {
 	max-width: 1920px;
+	margin: 0 auto;
 	padding-bottom: 148px; }
 	.contacts .contacts-image {
 	  margin-bottom: 150px; 
 	  height: 350px;
-	  text-align: center;}
-	  .contacts .contacts-image img {
-		width: 60%;
-	    height: 100%; }
+	  text-align: center;
+	background: url(../../../IMG/fasion-contacts.png) center no-repeat;}
 	.contacts .contacts-form {
 	  display: flex; }
 	  .contacts .contacts-form .contacts-form-text {

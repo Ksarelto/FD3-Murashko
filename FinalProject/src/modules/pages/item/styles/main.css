@@ -2,7 +2,26 @@
 
 	
 /*___________________________________ITEM_DISCRIPTION_______________*/
-
+.reviews__checkbox{
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.reviews .container{
+	position: relative;
+}
+.reviews__label{
+	position: absolute;
+  left: 120px;
+  top: 0px;
+  transform: rotate(-90deg);
+  font-size: 30px;
+}
+.box_reviews{
+	overflow: hidden;
+	height: 0;
+	transition: all .5s ease-in;
+}
 .description{
 	width: 100%;
 	background-color: #fff;

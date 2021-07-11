@@ -290,6 +290,22 @@ h3{
 	height: 190px;
 	margin-bottom: 20px;
 }
+.active-card{
+	border: 2px solid #e5c069;
+  box-shadow: 3px 4px 10px #a8a57b;
+}
+.watch-in-basket{
+	display: block;
+  width: 175px;
+	text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #d6b69a;
+  border-radius: 10px;
+	padding: 10px 0;
+  margin: 0 auto;
+  background-color: #f7e9cf;
+}
 .watch__discription{
 	flex: 0 1 35%;
 	text-align: center;

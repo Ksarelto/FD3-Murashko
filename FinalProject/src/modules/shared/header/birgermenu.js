@@ -15,11 +15,11 @@ export class BurgerMenu extends React.PureComponent{
     }
 
     render(){
-       return ( <div className="nav_gender" ref={this.setRef}>
+       return ( <div className="nav_gender">
 					<button onClick={this.showBurger}></button>
-					<div id="burgerMenu" className="burger_menu">
+					<div id="burgerMenu" className="burger_menu" ref={this.setRef}>
 						<NavLink exact to='/'>Главная</NavLink>
-						<NavLink to='/catalog'>Каталог</NavLink>
+						<NavLink to='/catalog/1'>Каталог</NavLink>
 						<NavLink to='/contacts'>Контакты</NavLink>
 					</div>
 				</div>
