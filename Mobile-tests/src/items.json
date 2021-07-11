@@ -1,0 +1,37 @@
+[
+    {
+        "personName": "Сергей",
+        "surename": "Иванов",
+        "patrinymic": "Петрович",
+        "balance": -23,
+        "code": 1
+    },
+    {
+        "personName": "Владимир",
+        "surename": "Раков",
+        "patrinymic": "ИВанович",
+        "balance": 0,
+        "code": 2
+    },
+    {
+        "personName": "Дмитрий",
+        "surename": "Носач",
+        "patrinymic": "Александрович",
+        "balance": 22,
+        "code": 3
+    },
+    {
+        "personName": "Арtьем",
+        "surename": "Мурашко",
+        "patrinymic": "Сергеевич",
+        "balance": 34,
+        "code": 4
+    },
+    {
+        "personName": "Алеся",
+        "surename": "Климова",
+        "patrinymic": "Сергеевна",
+        "balance": -30,
+        "code": 5
+    }
+]

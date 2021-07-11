@@ -1,0 +1,9 @@
+.multiline {
+  max-width: 200px;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #2f4f4f;
+  padding: 20px 0px;
+}
