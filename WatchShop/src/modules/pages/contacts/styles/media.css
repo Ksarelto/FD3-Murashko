@@ -1,0 +1,104 @@
+@media screen and (max-width: 1500px){
+  .contacts {
+    padding-bottom: 100px; }
+    .contacts .container {
+      padding: 0; }
+      .contacts .container .contacts-image {
+        height: 390px;
+        background: url(../../../IMG/fasion-contacts.png) center/ contain no-repeat;
+        margin-bottom: 49px; }
+        .contacts .container .contacts-image img {
+          height: 100%; }
+
+  .contacts .contacts-form {
+    display: block;
+    max-width: 930px;
+    margin: 0 auto; }
+    .contacts .contacts-form form textarea {
+      margin-bottom: 50px; }
+    .contacts .contacts-form .contacts-form-text {
+      text-align: center;
+      margin-bottom: 51px;
+      margin-right: 0; }
+      .contacts .contacts-form .contacts-form-text h2 {
+        margin-bottom: 30px; }
+    .contacts .contacts-form .contacts-form-inputs {
+      max-width: 834px;
+     margin: 0 auto; }
+}
+
+@media screen and (max-width: 1000px){
+  #container .description .container:first-child{
+    padding: 0 20px;
+  }
+  .contacts {
+    padding-bottom: 100px; }
+    .contacts .container {
+      padding: 0; }
+      .contacts .container .contacts-image {
+        height: 240px;
+        background: url(../../../IMG/fasion-contacts.png) center/ 85% 100% no-repeat;
+        margin-bottom: 50px; }
+      .contacts .container .contacts-form {
+        width: 100%;
+        max-width: none;
+        padding: 0px 20px; }
+        .contacts .container .contacts-form .contacts-form-inputs {
+          padding-right: 0; }
+          .contacts .container .contacts-form .contacts-form-inputs textarea {
+            margin-bottom: 50px; }
+          .contacts .container .contacts-form .contacts-form-inputs button {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%); }
+}
+
+@media screen and (max-width: 640px){
+  #container .description{
+    padding: 15px 0 0;
+  }
+  .contacts {
+    padding-bottom: 80px; }
+    .contacts .container .contacts-image {
+      margin-bottom: 30px; }
+    .contacts .container .contacts-form {
+      padding: 0px 10px; }
+      .contacts .container .contacts-form .contacts-form-text h2 {
+        font-size: 2.6rem;
+        margin-bottom: 30px; }
+      .contacts .container .contacts-form .contacts-form-inputs {
+        padding-right: 0; }
+        .contacts .container .contacts-form .contacts-form-inputs textarea {
+          margin-bottom: 50px; }
+        .contacts .container .contacts-form .contacts-form-inputs button {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%); }
+}
+
+@media screen and (max-width: 500px){
+  .contacts .container .contacts-image {
+    height: 217px; }
+  .contacts .container .contacts-form .contacts-form-text {
+    margin-bottom: 41px; }
+    .contacts .container .contacts-form .contacts-form-text h2 {
+      padding-right: 0;
+      margin-bottom: 16px; }
+    .contacts .container .contacts-form .contacts-form-text p {
+      padding-left: 0; }
+      .contacts .container .contacts-form .contacts-form-text p .white-space-block {
+        white-space: pre-line; }
+  .contacts .container .contacts-form .contacts-form-inputs {
+    padding: 0; }
+    .contacts .container .contacts-form .contacts-form-inputs label {
+      margin-bottom: 5px; }
+    .contacts .container .contacts-form .contacts-form-inputs input,
+    .contacts .container .contacts-form .contacts-form-inputs textarea {
+      padding: 12px 0px 10px 9px; }
+    .contacts .container .contacts-form .contacts-form-inputs textarea {
+      padding: 15px 0px 15px 9px;
+      margin-bottom: 32px; }
+    .contacts .container .contacts-form .contacts-form-inputs button {
+      max-width: 300px;
+      padding: 0.8rem 3.8rem 1.2rem 3.1rem; } 
+}
