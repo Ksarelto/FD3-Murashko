@@ -1,0 +1,55 @@
+
+
+@media all and (max-width: 1000px){
+	.description-items{
+		padding: 0 20px;
+	}
+	.item_content h2, .reviews h2, .item_foto h2{
+		margin: 0 0 35px;
+	}
+	.item_foto_container{
+		justify-content: space-around;
+	}
+	.item_foto_wrapper:nth-child(3), .item_foto_wrapper:nth-child(4){
+		display: none;
+	}
+	.reviews, .item_foto{
+		padding: 0 20px;
+	}
+	.review_card{
+		flex: 0 1 50%;
+	}
+}
+
+	@media all and (max-width: 768px){
+		.description_wrapper{
+			flex-direction: column;
+		}
+		.item_foto_wrapper{
+			flex: 0 1 40%;
+			margin-right: 0;
+		}
+		.item_slider{
+			margin-bottom: 30px;
+		}
+		.image__wrapper{
+			width: 85%;
+			margin: 0 auto;
+		}
+		.item_content h2{
+			font-size: 35px;
+		}
+		.item_foto_container{
+			height: 200px;
+		}
+}
+
+@media all and (max-width: 500px){
+	.review_card{
+		flex: 0 1 100%;
+		margin-bottom: 0;
+	}
+	.reviews__checkbox:checked + .box_reviews{
+		height: 980px;
+	}   
+}

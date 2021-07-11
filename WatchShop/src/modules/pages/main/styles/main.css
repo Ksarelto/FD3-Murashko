@@ -1,0 +1,490 @@
+header{
+	width: 100%;
+	padding: 1px 0px;
+	background-color: #fff;
+}
+.header .head{
+	width: 100%;
+	background-color: #000;
+}
+.head p{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0px;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}	
+.header .nav{
+	background-color: #fff;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav .nav_gender{
+	flex: 0 1 33.3333%;
+	display: flex;
+	align-items: center;
+}
+.nav_gender_search, .nav_gender button, .burger_menu {
+	display: none;
+}
+.nav_gender a{
+	font-size: 16px;
+	color: #888;
+	margin-right: 10px;
+}
+.nav_gender a:hover{
+	color: #333;
+}
+.nav .nav_logo{
+	flex: 0 1 33.3333%;
+	height: 55px;
+	text-align: center;
+	background: url(../../../IMG/Logo.jpg) center/ contain no-repeat;
+}
+.nav .nav_menu{
+	flex: 0 1 33.3333%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.nav_menu .nav_img{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin: 0px 20px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+	position: relative;
+}
+.nav_menu .nav_img a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.nav_menu .nav_img .active__link{
+	display: inline-block;
+	height: 192%;
+	border-bottom: 4px solid black;
+}
+.nav_menu .nav_img:hover:before{
+	content: "";
+	width: 23px;
+	height: 4px;
+	background-color: #000;
+	position: absolute;
+	left: 51%;
+	top: 27px;
+	transform: translateX(-50%);
+}
+.nav_menu .nav_img:first-child{
+	background: url(../../../IMG/home.svg) center/ 100% 100% no-repeat;
+}
+.nav_menu .nav_img:nth-child(2){
+	background: url(../../../IMG/catalog.svg) center/ 100% 100% no-repeat;
+}
+.nav_menu .nav_img:nth-child(3){
+	background: url(../../../IMG/store.svg) center/ 100% 100% no-repeat;
+}
+.nav_menu .nav_img:last-child{
+	background: url(../../../IMG/contacts.svg) center/ 100% 100% no-repeat;
+}
+
+.dotsLink{
+	color: #000;
+}
+/*__________________SLIDER_______________*/
+
+.wrapper{
+	max-width: 1400px;
+	height: 550px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.slider{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.slide{
+	width: 100%;
+	height: 100%;
+	transition: all .8s ease;
+}
+.slide .container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.one .container  {
+	justify-content: flex-end;
+}
+.slide_content{
+	padding-right: 50px;
+}
+.slide_content h1{
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	font-family: Arial, sans-serif;
+}
+.slide_content p{
+	font-size: 16px;
+	color: #888;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+	font-family: Arial, sans-serif;
+}
+.btn{
+	display: inline-block;
+	width: 170px;
+	padding: 8px 0px;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	letter-spacing: 2px;
+	transition: all .5s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #555;
+}
+.two .slide_content a{
+	background-color: #555;
+	color: #fff;
+	border: none;
+}
+.wrapper .container{
+	position: relative;
+}
+.container_slaider_label{
+	max-width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.one{
+	background: url(../../../IMG/Gucci.jpg) center/ 100% 100% no-repeat;
+}
+
+@media all and (max-width: 768px){
+	.one {
+		background: linear-gradient(to top, rgba(0, 0, 0, 1) 57%,rgba(0, 0, 0, 0.9) 60%, rgba(256, 256, 256, 0)) center bottom/ 100% 42% no-repeat, url(../../../IMG/Gucci.jpg) left -15px top -20px/ 165% 80% no-repeat;
+	}
+}
+/*______________________________FOTO_________________________*/
+
+
+
+.foto{
+	width: 100%;
+	padding: 50px 0px;
+}
+h2{
+	font-size: 30px;
+	color: #000;
+	border: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.foto_contain{
+	display: flex;
+	height: 920px;
+}
+.foto_container{
+	flex: 0 1 49%;
+	display: flex;
+	flex-direction: column;
+}
+.left_container{
+	flex: 1 1 auto;
+	margin-right: 20px;
+	position: relative;
+}
+.left_container:before{
+	content: "fashion";
+	width: 45px;
+	color: #fff;
+	background-color: #000;
+	font-size: 12px;
+	padding: 1px 5px;
+	position: absolute;
+	right: 20px;
+	bottom: -14px;
+	transform: translateX(-50%);
+}
+.foto_container_left_top{
+	flex: 1 1 auto;
+	margin-bottom: 20px;
+	background: url(../../../IMG/left_top.jpg) center/ 100% 100% no-repeat;
+}
+.foto_container_left_bottom{
+	flex: 0 1 39%;
+	background: url(../../../IMG/men-watch.jpg) center/ 100% 100% no-repeat;
+}
+.foto_container_right_top{
+	flex: 0 1 350px;
+	background: url(../../../IMG/right_top.jpg) center/ 100% 100% no-repeat;
+}
+.foto_container_right_bottom{
+	flex: 1 1 auto;
+	margin-top: 20px;
+	display: flex;
+}
+.foto_bags_left{
+	flex: 1 1 auto;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.foto_bags_left_top{
+	flex: 1 1 auto;
+	background: url(../../../IMG/onhandwatch.jpg) center/ 100% 100% no-repeat;
+	margin-bottom: 20px;
+}
+.foto_bags_left_bottom{
+	flex: 0 1 38%;
+	background: url(../../../IMG/tissot.jpg) center/ 100% 100% no-repeat;
+}
+.foto_bags_right{
+	flex: 0 1 49%;
+	display: flex;
+	flex-direction: column;
+}
+.foto_bags_right_top{
+	flex: 1 1 auto;
+	margin-bottom: 20px;
+	background: url(../../../IMG/womenwatch.jpg) center/ 100% 100% no-repeat;
+}
+.foto_bags_right_bottom{
+	flex: 0 1 45%;
+	background: url(../../../IMG/certina.jpg) center/ 100% 100% no-repeat;
+}
+
+.modal:hover  .foto_modal{
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+/*_____________________________________MODAL_____________________*/
+.foto_modal{
+	transform: scale(0);
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all .8s ease;
+}
+.foto_modal h3{
+	font-size: 20px;
+	color: #aaa;
+	margin-bottom: 20px;
+}
+/*____________________________________________________________________*/
+
+
+.bought{
+	width: 100%;
+	padding: 50px 0px;
+}
+.bought .container > p{
+	font-size: 18px;
+	color: #888;
+	line-height: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.bought_flex{
+	display: flex;
+	justify-content: space-between;
+}
+.bought_flex > div{
+	flex: 0 1 32%;
+	padding: 8px;
+}
+.bought_flex > div >p{
+	text-align: center;
+	padding: 10px 0px;
+	border: 1px solid #aaa;
+	color: #888;
+	position: relative;
+}
+.bought_flex_left{
+	background-color: #fde6ac;
+}
+.bought_flex_middle{
+	background-color: #bbe7dc;
+}
+.bought_flex_right{
+	background-color: #bad3ea;	
+}
+.bought_flex_left p:before{
+	content: url(../../../IMG/Group_96.svg);
+	position: absolute;
+	left: calc(50% - 130px);
+	top: 50%;
+	transform: translateY(-50%);
+}
+.bought_flex_middle p:before{
+	content: url(../../../IMG/Group_94.svg);
+	position: absolute;
+	left: calc(50% - 70px);
+	top: 50%;
+	transform: translateY(-50%);
+}
+.bought_flex_right p:before{
+	content: url(../../../IMG/Group_95.svg);
+	position: absolute;
+	left:  calc(50% - 95px);
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+
+/*___________________________________FASHION________________________*/
+
+
+
+.fashion{
+	width: 100%;
+	padding: 50px 0px;
+}
+.fashion_flex{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.fashion_flex > div{
+	flex: 0 1 32%;
+	display: flex;
+	flex-direction: column;
+}
+.fashion_flex_top{
+	flex: 0 1 250px;
+}
+.fashion_flex_left .fashion_flex_top{
+	background: url(../../../IMG/fashion_left.jpg)center/ cover no-repeat;
+}
+.fashion_flex_middle .fashion_flex_top{
+	background: url(../../../IMG/fashion_middle.jpg)center/ cover no-repeat;
+}
+.fashion_flex_right .fashion_flex_top{
+	background: url(../../../IMG/fashion_right.jpg)center/ cover no-repeat;
+}
+.fashion_flex_bottom{
+	flex: 0 1 45%;
+	padding: 30px 30px 40px;
+	background-color: #f5f5f5;
+}
+.fashion_flex_bottom h3{
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.fashion_flex_bottom p{
+	text-align: center;
+	font-size: 14px;
+	color: #888;
+	line-height: 15px;
+}
+
+
+
+
+/*_____________________________FOOTER_______________________________*/
+
+
+
+
+.footer{
+	width: 100%;
+	background-color: #000;
+	padding: 35px 0px;
+	margin-top: 20px;
+}
+.footer .container:before{
+	content: "fashion";
+	width: 45px;
+	color: #fff;
+	background-color: #000;
+	font-size: 12px;
+	padding: 1px 5px;
+	position: absolute;
+	left: 50%;
+	top: -47px;
+	transform: translateX(-50%);
+}
+.footer .container{
+	display: flex;
+	display: -ms-flexbox;
+	width: 100%;
+	justify-content: space-between;
+}
+.footer_contacts{
+	display: flex;
+	display: -ms-flexbox;
+	flex: 0 1 25%;
+	justify-content: space-between;
+}
+.footer_contacts p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+	min-width: 160px;
+}
+.footer_links{
+	flex: 0 1 8%;
+	justify-content: space-between;
+	display: flex;
+	display: -ms-flexbox;
+	align-items: flex-end;
+}
+.footer_links .footer_img{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin: 0px 20px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+	position: relative;
+}
+.footer_links .footer_img a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.footer_links .footer_img:first-child:before{
+	content: "";
+	width: 20px;
+	height: 4px;
+	background-color: #000;
+	position: absolute;
+	left: 50%;
+	top: 27px;
+	transform: translateX(-50%);
+}
+.footer_links .footer_img:first-child{
+	background: url(../../../IMG/telegram.svg) center/ 100% 100% no-repeat;
+}
+.footer_links .footer_img:nth-child(2){
+	background: url(../../../IMG/twitter.svg) center/ 100% 100% no-repeat;
+}
+.footer_links .footer_img:last-child{
+	background: url(../../../IMG/instagram.svg) center/ 100% 100% no-repeat;
+}
+/*___________________________________________________*/
